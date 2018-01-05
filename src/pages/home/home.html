@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      ChatApp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<!-- <p>Enter your username</p> -->
+	<ion-item>
+		<ion-label floating>Name</ion-label>
+		<ion-input type="text" [(ngModel)]="username"></ion-input>
+	</ion-item>
+	<button ion-button block (click)="loginUser()">Enter</button>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Developed By : Gaurav Parmar</ion-title>
+  </ion-toolbar>
+</ion-footer>

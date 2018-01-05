@@ -1,0 +1,8 @@
+{
+  "name": "GChat",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "app_id": "0f01ebbf"
+}
